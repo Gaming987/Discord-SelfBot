@@ -124,7 +124,7 @@ class SELFBOT():
 with open('config.json') as f:
     config = json.load(f)
 
-token = config.get('token')
+token = os.environ['token']
 password = config.get('password')
 prefix = config.get('prefix')
 nitro_sniper = config.get('nitro_sniper')
