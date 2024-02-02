@@ -1,6 +1,6 @@
 {
-    "token": "",
-    "password": "",
+    "token": os.environ['token'],
+    "password": os.environ['password],
     "prefix": "*",
     
     "nitro_sniper": true, 
